@@ -1,0 +1,66 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --highlight: #02d9ce;
+}
+
+body.dark {
+  --bg-color: #1a1a1a;
+  --text-color: #f0f0f0;
+  --highlight: #00d0ff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  transition: background 0.3s, color 0.3s;
+}
+
+header {
+  text-align: center;
+  padding: 2em;
+  background-color: var(--highlight);
+  color: #fff;
+}
+
+.highlight {
+  color: #fffb05;
+}
+
+section {
+  padding: 2em;
+}
+
+
+.experience-section {
+  margin-bottom: 2em;
+}
+
+.experience-card {
+  background-color: #f4f4f4;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 8px;
+}
+
+body.dark .experience-card {
+  background-color: #2c2c2c;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: var(--highlight);
+  color: #fff;
+}
+footer a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: #ffe100;
+}
